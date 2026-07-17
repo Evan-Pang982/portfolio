@@ -27,7 +27,7 @@ class PortfolioSmokeTest(unittest.TestCase):
         self.assertEqual("Home", self.app.radio[0].value)
 
     def test_every_navigation_section_loads(self) -> None:
-        for page in ["Role & Projects", "Evidence", "KSA", "Reflection", "Contact"]:
+        for page in ["Role & Projects", "Reflection"]:
             self.app.radio[0].set_value(page).run()
             self.assert_clean()
             self.assertEqual(page, self.app.radio[0].value)

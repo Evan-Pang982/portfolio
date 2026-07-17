@@ -209,6 +209,63 @@ def render_home(data: dict) -> None:
     )
 
 
+def render_project_evidence(artifact: dict, index: int) -> None:
+    """Render the evidence belonging to a project beside its project summary."""
+    skills_html = "".join(
+        pill(f"{skill['name']} · {skill['level']}", "teal")
+        for skill in artifact.get("skills", [])
+    )
+    st.markdown(
+        f"""
+        <div class="project-evidence-card">
+          <div class="evidence-topline">
+            <span>SUPPORTING ARTEFACT {index:02d}</span>
+            <strong>{clean(artifact['clearance_status'])}</strong>
+          </div>
+          <div class="evidence-type">{clean(artifact['type'])}</div>
+          <h3>{clean(artifact['title'])}</h3>
+          <p>{clean(artifact['summary'])}</p>
+          <div class="evidence-fact">
+            <span>MY CONTRIBUTION</span>
+            <p>{clean(artifact['contribution'])}</p>
+          </div>
+          <div class="evidence-fact">
+            <span>RESULT</span>
+            <p>{clean(artifact['result'])}</p>
+          </div>
+          <div class="tag-row">{skills_html}</div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    with st.expander("View artefact details"):
+        st.markdown(
+            f"""
+            **Deliverable**  
+            {artifact['deliverable']}
+
+            **How it is used**  
+            {artifact['use']}
+
+            **Action taken**  
+            {artifact['action']}
+
+            **Corrective action / next iteration**  
+            {artifact['corrective_action']}
+            """
+        )
+        if artifact.get("code_snippet"):
+            st.code(
+                artifact["code_snippet"],
+                language=artifact.get("code_language", "python"),
+            )
+
+    artifact_link = safe_link(artifact.get("link", ""))
+    if artifact_link:
+        st.link_button("Open supporting evidence", artifact_link, use_container_width=True)
+
+
 def render_projects(data: dict) -> None:
     section_intro(
         "02 · EXPERIENCE",
@@ -228,6 +285,7 @@ def render_projects(data: dict) -> None:
         unsafe_allow_html=True,
     )
 
+    artifacts = data.get("artifacts", [])
     for index, project in enumerate(data["projects"], start=1):
         st.markdown(
             f"""
@@ -242,22 +300,36 @@ def render_projects(data: dict) -> None:
             """,
             unsafe_allow_html=True,
         )
-        cols = st.columns(3, gap="medium")
-        blocks = [
-            ("My responsibility", project["responsibility"]),
-            ("Approach", project["approach"]),
-            ("Outcome", project["outcome"]),
-        ]
-        for col, (title, body) in zip(cols, blocks):
-            with col:
-                st.markdown(
-                    f'<div class="mini-card"><span>{clean(title)}</span><p>{clean(body)}</p></div>',
-                    unsafe_allow_html=True,
-                )
-        st.markdown(
-            '<div class="tag-row">' + "".join(pill(tag, "navy") for tag in project["skills"]) + "</div>",
-            unsafe_allow_html=True,
-        )
+        project_col, evidence_col = st.columns([1.08, 0.92], gap="large")
+        with project_col:
+            details_html = "".join(
+                f"""
+                <div class="project-detail-item">
+                  <span>{clean(title)}</span>
+                  <p>{clean(body)}</p>
+                </div>
+                """
+                for title, body in [
+                    ("My responsibility", project["responsibility"]),
+                    ("Approach", project["approach"]),
+                    ("Outcome", project["outcome"]),
+                ]
+            )
+            st.markdown(
+                f'<div class="project-detail-panel">{details_html}</div>',
+                unsafe_allow_html=True,
+            )
+            st.markdown(
+                '<div class="tag-row">'
+                + "".join(pill(tag, "navy") for tag in project["skills"])
+                + "</div>",
+                unsafe_allow_html=True,
+            )
+        with evidence_col:
+            if index <= len(artifacts):
+                render_project_evidence(artifacts[index - 1], index)
+            else:
+                st.warning("Add a supporting artefact for this project.")
 
 
 def render_artifact(data: dict, artifact: dict, index: int) -> None:
@@ -538,6 +610,20 @@ CUSTOM_CSS = """
   .mini-card { min-height: 190px; background: white; border: 1px solid var(--line); border-radius: 16px; padding: 1.25rem; }
   .mini-card span { color: var(--teal); font-weight: 800; font-size: .82rem; }
   .mini-card p { color: var(--muted); }
+  .project-detail-panel { background: white; border: 1px solid var(--line); border-radius: 18px; padding: 0 1.35rem; }
+  .project-detail-item { padding: 1.25rem 0; }
+  .project-detail-item + .project-detail-item { border-top: 1px solid var(--line); }
+  .project-detail-item span, .evidence-fact span { color: var(--teal); font-size: .75rem; font-weight: 800; letter-spacing: .06em; }
+  .project-detail-item p, .evidence-fact p { color: var(--muted); margin: .35rem 0 0; }
+  .project-evidence-card { background: var(--ink); color: white; border-radius: 20px; padding: 1.5rem; }
+  .project-evidence-card h3 { color: white; font-size: 1.45rem; margin: .55rem 0; }
+  .project-evidence-card > p { color: #dce3f0; }
+  .evidence-topline { display: flex; justify-content: space-between; gap: .7rem; align-items: center; }
+  .evidence-topline span { color: #79d9cc; font-size: .7rem; font-weight: 800; letter-spacing: .1em; }
+  .evidence-topline strong { background: rgba(121,217,204,.14); color: #9ce6dc; border-radius: 999px; padding: .3rem .55rem; font-size: .68rem; }
+  .evidence-type { color: #aeb8d0; font-size: .75rem; margin-top: 1rem; }
+  .evidence-fact { border-top: 1px solid rgba(255,255,255,.14); padding-top: .9rem; margin-top: .9rem; }
+  .evidence-fact p { color: #dce3f0; }
   .artifact-title h2 { font-size: 2.2rem; margin: .4rem 0; }
   .artifact-title p { color: var(--muted); }
   .status-badge { background: var(--teal-soft); color: #086158; padding: .7rem 1rem; border-radius: 999px; text-align: center; font-weight: 800; font-size: .78rem; }
@@ -586,7 +672,7 @@ with st.sidebar:
     st.markdown("---")
     page = st.radio(
         "Portfolio navigation",
-        ["Home", "Role & Projects", "Evidence", "KSA", "Reflection", "Contact"],
+        ["Home", "Role & Projects", "Reflection"],
         label_visibility="collapsed",
     )
     st.markdown("---")
@@ -603,10 +689,7 @@ with st.sidebar:
 pages = {
     "Home": render_home,
     "Role & Projects": render_projects,
-    "Evidence": render_evidence,
-    "KSA": render_ksa,
     "Reflection": render_reflection,
-    "Contact": render_contact,
 }
 pages[page](data)
 
