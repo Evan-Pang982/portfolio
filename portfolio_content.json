@@ -1,0 +1,193 @@
+{
+  "show_editor_checklist": true,
+  "profile": {
+    "name": "[REPLACE: Your Name]",
+    "role": "[REPLACE: Your Internship Job Role]",
+    "course": "[REPLACE: Diploma / Course]",
+    "period": "[REPLACE: Month Year - Month Year]",
+    "location": "Singapore",
+    "summary": "[REPLACE: In 2-3 sentences, explain your role, the problems you worked on, and the professional direction you are developing.]",
+    "photo": "assets/profile.jpg",
+    "email": "[REPLACE: your.email@example.com]",
+    "linkedin": "https://www.linkedin.com/in/REPLACE-ME",
+    "github": "https://github.com/REPLACE-ME"
+  },
+  "company": {
+    "name": "[REPLACE: Company Name]",
+    "description": "[REPLACE: Give a concise, non-confidential description of the company, its industry, customers, and purpose.]",
+    "department": "[REPLACE: Department / Team]",
+    "department_description": "[REPLACE: Explain what your department does and how it contributes to the organisation.]"
+  },
+  "job_scope": [
+    "[REPLACE: Core responsibility 1]",
+    "[REPLACE: Core responsibility 2]",
+    "[REPLACE: Core responsibility 3]",
+    "[REPLACE: Collaboration or communication responsibility]"
+  ],
+  "portfolio_thesis": "[REPLACE: One sentence that connects your projects, evidence and professional growth.]",
+  "projects": [
+    {
+      "title": "[REPLACE: Project One Title]",
+      "period": "[REPLACE: Weeks / Dates]",
+      "status": "Completed",
+      "summary": "[REPLACE: Explain the business or user problem and the project objective.]",
+      "responsibility": "[REPLACE: State exactly what you owned or contributed; distinguish your work from the team's work.]",
+      "approach": "[REPLACE: Summarise your method, tools, collaboration and important decisions.]",
+      "outcome": "[REPLACE: Give a measurable result where possible, or a specific observed outcome.]",
+      "skills": ["[REPLACE: Skill 1]", "[REPLACE: Skill 2]", "[REPLACE: Critical Core Skill]"]
+    },
+    {
+      "title": "[REPLACE: Project Two Title]",
+      "period": "[REPLACE: Weeks / Dates]",
+      "status": "Completed",
+      "summary": "[REPLACE: Explain the second problem and project objective.]",
+      "responsibility": "[REPLACE: State your contribution to the final outcome.]",
+      "approach": "[REPLACE: Summarise the process, tools and decisions used.]",
+      "outcome": "[REPLACE: Describe the result, impact or validated learning.]",
+      "skills": ["[REPLACE: Skill 1]", "[REPLACE: Skill 2]", "[REPLACE: Critical Core Skill]"]
+    }
+  ],
+  "artifacts": [
+    {
+      "title": "[REPLACE: Artefact One - e.g. Redacted Prototype or Technical Report]",
+      "type": "[REPLACE: Prototype / Report / Dashboard / Code / Demo]",
+      "clearance_status": "[REPLACE: Approved / Redacted]",
+      "summary": "[REPLACE: Briefly explain what this artefact proves and which project it belongs to.]",
+      "deliverable": "[REPLACE: Describe the final deliverable clearly.]",
+      "contribution": "[REPLACE: Explain your individual contribution to the final deliverable.]",
+      "use": "[REPLACE: Explain who uses the deliverable and how it supports their work.]",
+      "action": "[REPLACE: Describe the actions you took, including analysis, building, testing and collaboration.]",
+      "result": "[REPLACE: Report a metric, comparison, stakeholder outcome or other verifiable result.]",
+      "corrective_action": "[REPLACE: State what needed correction and how you improved it, or what you would change next.]",
+      "skills": [
+        {
+          "name": "[REPLACE: Technical Skill / TSC]",
+          "framework": "Skills Framework for ICT - TSC",
+          "level": "Intermediate",
+          "evidence": "[REPLACE: Explain the behaviour in this artefact that demonstrates the stated level.]"
+        },
+        {
+          "name": "[REPLACE: Critical Core Skill]",
+          "framework": "Critical Core Skills - CCS",
+          "level": "Intermediate",
+          "evidence": "[REPLACE: Explain how communication, collaboration, problem solving or learning agility was demonstrated.]"
+        }
+      ],
+      "code_language": "python",
+      "code_snippet": "# Replace with a short, company-approved excerpt\ndef validate_output(result):\n    return result is not None and result.status == 'approved'",
+      "link": ""
+    },
+    {
+      "title": "[REPLACE: Artefact Two - e.g. Test Results, Diagram or Product Demonstration]",
+      "type": "[REPLACE: Test Results / Diagram / Video / Certificate]",
+      "clearance_status": "[REPLACE: Approved / Redacted]",
+      "summary": "[REPLACE: Briefly explain what this second artefact proves and which project it supports.]",
+      "deliverable": "[REPLACE: Describe the artefact and its important components.]",
+      "contribution": "[REPLACE: Explain what you created, improved or validated.]",
+      "use": "[REPLACE: Explain the audience and practical use of this artefact.]",
+      "action": "[REPLACE: Explain your task, decisions and execution.]",
+      "result": "[REPLACE: Give a specific result or evidence of competency.]",
+      "corrective_action": "[REPLACE: Describe feedback received, gaps identified and the action taken.]",
+      "skills": [
+        {
+          "name": "[REPLACE: Technical Skill / TSC]",
+          "framework": "Skills Framework for ICT - TSC",
+          "level": "Intermediate",
+          "evidence": "[REPLACE: Connect the artefact to the proficiency level with a concrete example.]"
+        },
+        {
+          "name": "[REPLACE: Critical Core Skill]",
+          "framework": "Critical Core Skills - CCS",
+          "level": "Intermediate",
+          "evidence": "[REPLACE: Explain the workplace behaviour demonstrated.]"
+        }
+      ],
+      "code_language": "text",
+      "code_snippet": "",
+      "link": ""
+    }
+  ],
+  "ksa": {
+    "knowledge": [
+      {
+        "name": "[REPLACE: Domain / Technical Knowledge]",
+        "framework": "Skills Framework for ICT",
+        "level": "Intermediate",
+        "evidence_ref": "Artefact 01",
+        "explanation": "[REPLACE: Explain the concepts, constraints and context you understand.]",
+        "demonstration": "[REPLACE: Give a workplace example showing how this knowledge informed a decision.]"
+      },
+      {
+        "name": "[REPLACE: Process / Business Knowledge]",
+        "framework": "Workplace knowledge",
+        "level": "Foundational",
+        "evidence_ref": "Project 02",
+        "explanation": "[REPLACE: Explain what you learned about the organisation, users or delivery process.]",
+        "demonstration": "[REPLACE: Give a concrete example.]"
+      }
+    ],
+    "skills": [
+      {
+        "name": "[REPLACE: Technical Skill 1]",
+        "framework": "Technical Skills & Competencies (TSC)",
+        "level": "Intermediate",
+        "evidence_ref": "Artefact 01",
+        "explanation": "[REPLACE: Define the skill in the context of your job role.]",
+        "demonstration": "[REPLACE: Explain the task, your action, result and degree of independence.]"
+      },
+      {
+        "name": "[REPLACE: Technical Skill 2]",
+        "framework": "Technical Skills & Competencies (TSC)",
+        "level": "Intermediate",
+        "evidence_ref": "Artefact 02",
+        "explanation": "[REPLACE: Define the second skill.]",
+        "demonstration": "[REPLACE: Connect it to a project outcome and any corrective action.]"
+      },
+      {
+        "name": "[REPLACE: Problem Solving / Communication / Collaboration]",
+        "framework": "Critical Core Skills (CCS)",
+        "level": "Intermediate",
+        "evidence_ref": "Projects 01-02",
+        "explanation": "[REPLACE: Explain why this generic competency mattered in your work.]",
+        "demonstration": "[REPLACE: Describe the situation, action and result that demonstrate it.]"
+      }
+    ],
+    "attitudes": [
+      {
+        "name": "[REPLACE: Learning Agility / Ownership / Professionalism]",
+        "framework": "Critical Core Skills (CCS)",
+        "level": "Intermediate",
+        "evidence_ref": "Reflection",
+        "explanation": "[REPLACE: Explain the attitude and why it matters in your job role.]",
+        "demonstration": "[REPLACE: Give a specific behaviour, feedback item or decision that shows this attitude.]"
+      },
+      {
+        "name": "[REPLACE: Second Professional Attitude]",
+        "framework": "Workplace competency",
+        "level": "Intermediate",
+        "evidence_ref": "Artefact 02",
+        "explanation": "[REPLACE: Explain the attitude.]",
+        "demonstration": "[REPLACE: Give specific evidence.]"
+      }
+    ]
+  },
+  "reflection": {
+    "nature_of_work": "[REPLACE: Reflect on the daily, weekly and longer-term responsibilities that formed the foundation of your role.]",
+    "challenge": "[REPLACE: Describe one meaningful technical or workplace challenge, its causes and constraints.]",
+    "action": "[REPLACE: Explain what you did, how KSA informed your response and why you chose that approach.]",
+    "result": "[REPLACE: State the outcome and the evidence you used to judge whether the response worked.]",
+    "critical_evaluation": "[REPLACE: Critique your work honestly. Identify an assumption, limitation, missed opportunity or weakness.]",
+    "alternative": "[REPLACE: Give a practical alternative approach and explain when or why it may be better.]",
+    "learning_growth": "[REPLACE: Explain how the experience broadened or deepened your knowledge, skills and attitudes.]",
+    "accomplishment": "[REPLACE: Identify an achievement, its impact and why you are proud of it.]",
+    "future_self_title": "[REPLACE: The professional I am becoming]",
+    "future_self": "[REPLACE: Describe your future work aspirations, the kind of problems you want to solve and the professional values you want to carry forward.]",
+    "next_steps": [
+      "[REPLACE: Specific development action with a timeframe]",
+      "[REPLACE: Skill or certification goal]",
+      "[REPLACE: Portfolio, project or networking action]"
+    ]
+  },
+  "contact_note": "[REPLACE: Add a short invitation to discuss your work or future opportunities.]",
+  "privacy_note": "This portfolio contains only approved or redacted workplace information. Sensitive, proprietary and personal data have been excluded."
+}

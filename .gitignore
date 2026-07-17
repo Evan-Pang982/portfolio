@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+tmp/
+.DS_Store
+Thumbs.db
+
+# Local assessment references (not part of the public portfolio site)
+CIT2C27 IND1 Apr26 - Digital portfolio Specifications.docx
+Digital Portfolio Checklist.pdf
