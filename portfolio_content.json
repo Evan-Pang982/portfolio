@@ -3,14 +3,14 @@
   "profile": {
     "name": "Evan Pang",
     "role": "Intern",
-    "course": "[REPLACE: Diploma / Course]",
-    "period": "[REPLACE: Month Year - Month Year]",
+    "course": "Diploma in Applied Artificial Intelligence",
+    "period": "March 30 2026 to July 15 2026",
     "location": "Singapore",
     "summary": "[REPLACE: In 2-3 sentences, explain your role, the problems you worked on, and the professional direction you are developing.]",
     "photo": "assets/profile.png",
-    "email": "[REPLACE: your.email@example.com]",
-    "linkedin": "https://www.linkedin.com/in/REPLACE-ME",
-    "github": "https://github.com/REPLACE-ME"
+    "email": "evanpang982@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/evan-pang-9125b6315/",
+    "github": "https://github.com/Evan-Pang982"
   },
   "company": {
     "name": "Tertiary Infotech Academy PTE LTD",
