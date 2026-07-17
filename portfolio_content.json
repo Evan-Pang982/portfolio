@@ -14,17 +14,17 @@
   },
   "company": {
     "name": "Tertiary Infotech Academy PTE LTD",
-    "description": "[REPLACE: Give a concise, non-confidential description of the company, its industry, customers, and purpose.]",
-    "department": "[REPLACE: Department / Team]",
-    "department_description": "[REPLACE: Explain what your department does and how it contributes to the organisation.]"
+    "description": "Tertiary Courses Academy Pte Ltd is a training institution established in Singapore, offering a wide range of modular, skill-based courses across various industries, including Infocomm Technology, Digital Media, Electronics, Horticulture, and Business Administration.",
+    "department": "IT Department",
+    "department_description": "The IT department is responsible for overseeing technology-related tasks and ensuring the proper functioning of an organization's technology infrastructure"
   },
   "job_scope": [
-    "[REPLACE: Core responsibility 1]",
-    "[REPLACE: Core responsibility 2]",
-    "[REPLACE: Core responsibility 3]",
-    "[REPLACE: Collaboration or communication responsibility]"
+    "Do the tasks assigned by the supervisor and complete them on time.",
+    "Maintain the website for the company and update the content as needed.",
+    "Fix visual and functional issues on the website to ensure a smooth user experience.",
+    "Collaborate with team members and communicate effectively to achieve project goals."
   ],
-  "portfolio_thesis": "[REPLACE: One sentence that connects your projects, evidence and professional growth.]",
+  "portfolio_thesis": "Ensuring the quality and functionality of the company's website through effective maintenance, updates, and issue resolution, while contributing to the overall user experience and supporting the department's objectives.",
   "projects": [
     {
       "title": "[REPLACE: Project One Title]",
