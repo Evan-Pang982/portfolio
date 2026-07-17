@@ -147,7 +147,7 @@ def render_home(data: dict) -> None:
                 <div class="portrait-placeholder">
                   <div class="portrait-initials">{clean(initials)}</div>
                   <div><strong>Add your clear profile photo</strong><br>
-                  Save it as <code>assets/profile.jpg</code>.</div>
+                  Save it as <code>assets/profile.png</code>.</div>
                 </div>
                 """,
                 unsafe_allow_html=True,

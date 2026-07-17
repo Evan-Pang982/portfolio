@@ -14,7 +14,7 @@ A rubric-aligned Streamlit e-portfolio for CIT2C27 Guided Work-Based Learning 1.
 
 1. Open `portfolio_content.json`.
 2. Replace every value beginning with `[REPLACE: ...]`.
-3. Add a clear profile photo at `assets/profile.jpg`.
+3. Add a clear profile photo at `assets/profile.png`.
 4. Add only approved/redacted evidence links and short non-confidential code excerpts.
 5. Check the Skills Framework for Infocomm Technology and use the exact TSC/CCS names and proficiency levels relevant to your job role.
 6. Set `show_editor_checklist` to `false` before final submission.
