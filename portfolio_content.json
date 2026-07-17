@@ -2,7 +2,7 @@
   "show_editor_checklist": true,
   "profile": {
     "name": "Evan Pang",
-    "role": "[REPLACE: Your Internship Job Role]",
+    "role": "Intern",
     "course": "[REPLACE: Diploma / Course]",
     "period": "[REPLACE: Month Year - Month Year]",
     "location": "Singapore",
@@ -13,7 +13,7 @@
     "github": "https://github.com/REPLACE-ME"
   },
   "company": {
-    "name": "[REPLACE: Company Name]",
+    "name": "Tertiary Infotech Academy PTE LTD",
     "description": "[REPLACE: Give a concise, non-confidential description of the company, its industry, customers, and purpose.]",
     "department": "[REPLACE: Department / Team]",
     "department_description": "[REPLACE: Explain what your department does and how it contributes to the organisation.]"
