@@ -255,6 +255,21 @@ def render_project_evidence(artifact: dict, index: int) -> None:
             {artifact['corrective_action']}
             """
         )
+        screenshots = artifact.get("screenshots", [])
+        if screenshots:
+            st.markdown("**Selected screenshot evidence**")
+            screenshot_columns = st.columns(2, gap="medium")
+            for screenshot_index, screenshot in enumerate(screenshots):
+                image_path = ROOT / screenshot["path"]
+                with screenshot_columns[screenshot_index % 2]:
+                    if image_path.is_file():
+                        st.image(
+                            str(image_path),
+                            caption=screenshot.get("caption", ""),
+                            use_container_width=True,
+                        )
+                    else:
+                        st.caption(f"Screenshot unavailable: {image_path.name}")
         if artifact.get("code_snippet"):
             st.code(
                 artifact["code_snippet"],

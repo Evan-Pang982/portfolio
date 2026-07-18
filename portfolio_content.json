@@ -1,12 +1,12 @@
 {
-  "show_editor_checklist": true,
+  "show_editor_checklist": false,
   "profile": {
     "name": "Evan Pang",
     "role": "Intern",
     "course": "Diploma in Applied Artificial Intelligence",
     "period": "March 30 2026 to July 15 2026",
     "location": "Singapore",
-    "summary": "[REPLACE: In 2-3 sentences, explain your role, the problems you worked on, and the professional direction you are developing.]",
+    "summary": "As an intern in the IT Department at Tertiary Infotech Academy PTE LTD, I maintained and improved the company's training website and administration platform. My work focused on making course-management interfaces clearer, presenting course content correctly, validating platform functions and documenting issues for follow-up. These experiences are developing my skills in front-end implementation, application support, testing and practical problem solving.",
     "photo": "assets/profile.png",
     "email": "evanpang982@gmail.com",
     "linkedin": "https://www.linkedin.com/in/evan-pang-9125b6315/",
@@ -27,167 +27,218 @@
   "portfolio_thesis": "Ensuring the quality and functionality of the company's website through effective maintenance, updates, and issue resolution, while contributing to the overall user experience and supporting the department's objectives.",
   "projects": [
     {
-      "title": "[REPLACE: Project One Title]",
-      "period": "[REPLACE: Weeks / Dates]",
+      "title": "Course Management User Interface Improvements",
+      "period": "May 2026",
       "status": "Completed",
-      "summary": "[REPLACE: Explain the business or user problem and the project objective.]",
-      "responsibility": "[REPLACE: State exactly what you owned or contributed; distinguish your work from the team's work.]",
-      "approach": "[REPLACE: Summarise your method, tools, collaboration and important decisions.]",
-      "outcome": "[REPLACE: Give a measurable result where possible, or a specific observed outcome.]",
-      "skills": ["[REPLACE: Skill 1]", "[REPLACE: Skill 2]", "[REPLACE: Critical Core Skill]"]
+      "summary": "The course administration screens contained inconsistent control placement, exposed HTML in course content and presentation issues that made information harder to manage and read. The objective was to improve the usability and visual consistency of the course editor and the public course page.",
+      "responsibility": "I reviewed the interface issues highlighted in the task screenshots, made the assigned visual and content-presentation changes, and checked the affected admin and public-facing screens. My contribution covered course sessions, assessment methods, lesson topics, training modes, documents, course-topic formatting and page spacing.",
+      "approach": "I compared the marked problem areas with the revised screens, worked through each course-management section systematically and checked that controls remained clear and usable. I also verified the content in both editing and display contexts, including the editor/HTML views and the public learning-outcomes page.",
+      "outcome": "An 11-screen evidence set records a clearer and more consistent course-management experience. The revised views show structured topic controls, better-positioned actions, formatted course content instead of exposed HTML markup, and improved spacing and readability on the public course page.",
+      "skills": ["User Interface Implementation", "Web Content Management", "Problem Solving"]
     },
     {
-      "title": "[REPLACE: Project Two Title]",
-      "period": "[REPLACE: Weeks / Dates]",
+      "title": "Training Platform Functionality Enhancements and Validation",
+      "period": "April to July 2026",
       "status": "Completed",
-      "summary": "[REPLACE: Explain the second problem and project objective.]",
-      "responsibility": "[REPLACE: State your contribution to the final outcome.]",
-      "approach": "[REPLACE: Summarise the process, tools and decisions used.]",
-      "outcome": "[REPLACE: Describe the result, impact or validated learning.]",
-      "skills": ["[REPLACE: Skill 1]", "[REPLACE: Skill 2]", "[REPLACE: Critical Core Skill]"]
+      "summary": "The training platform required functional checks and targeted updates across its public website and administration portal. The work covered course registration and email confirmation, reviews, store views, profile settings, funding options, categories, schedules, assessment links, dashboard tools and course-image handling.",
+      "responsibility": "I supported the assigned functionality changes by reproducing issues, checking the relevant admin configuration or user workflow, and validating the resulting screen or notification. I also documented unresolved defects, including a missing course image, so that the problem and its location were clear.",
+      "approach": "I tested each function in its real context, moving between the public storefront, administration screens and generated email output. I used the annotated screenshots to identify the target area, checked configuration-dependent changes across store views, refreshed cached content where required and recorded visible evidence of the result.",
+      "outcome": "A 12-screen evidence set provides a traceable record of the platform checks and enhancements. It verifies working or configurable functions such as registration confirmation, review administration, profile and theme controls, funding eligibility, category management, editable course schedules and assessment links, while separately recording the course-image defect for correction.",
+      "skills": ["Application Support and Testing", "Content and Configuration Management", "Problem Solving"]
     }
   ],
   "artifacts": [
     {
-      "title": "[REPLACE: Artefact One - e.g. Redacted Prototype or Technical Report]",
-      "type": "[REPLACE: Prototype / Report / Dashboard / Code / Demo]",
-      "clearance_status": "[REPLACE: Approved / Redacted]",
-      "summary": "[REPLACE: Briefly explain what this artefact proves and which project it belongs to.]",
-      "deliverable": "[REPLACE: Describe the final deliverable clearly.]",
-      "contribution": "[REPLACE: Explain your individual contribution to the final deliverable.]",
-      "use": "[REPLACE: Explain who uses the deliverable and how it supports their work.]",
-      "action": "[REPLACE: Describe the actions you took, including analysis, building, testing and collaboration.]",
-      "result": "[REPLACE: Report a metric, comparison, stakeholder outcome or other verifiable result.]",
-      "corrective_action": "[REPLACE: State what needed correction and how you improved it, or what you would change next.]",
+      "title": "Course Interface Change Screenshot Record",
+      "type": "Annotated before-and-after screenshots",
+      "clearance_status": "Privacy-screened selection",
+      "summary": "This evidence supports Project 01 by showing the course editor and public course page before and after the assigned interface and content-presentation changes.",
+      "deliverable": "An 11-screen visual record covering course-session actions, assessment-method presentation, lesson-topic controls, virtual-meeting and document sections, training modes, footer presentation, course-topic editing and the public learning-outcomes layout.",
+      "contribution": "I reviewed the marked interface problems, implemented or checked the assigned corrections and organised the visible results into a project evidence set.",
+      "use": "A supervisor or assessor can use the screenshots to connect each highlighted interface issue with the revised screen and evaluate the clarity of the final presentation.",
+      "action": "I inspected each highlighted area, corrected layout and content-display behaviour, checked related controls and compared the administration view with the public course page. I paid particular attention to the difference between raw HTML input and correctly rendered course content.",
+      "result": "The evidence confirms that course topics are presented as formatted content rather than visible HTML markup, topic and session controls are organised more clearly, and the public page has more readable content spacing.",
+      "corrective_action": "The raw-HTML display and inconsistent presentation were corrected in the revised views. A future iteration should capture every item as a consistent before-and-after pair and repeat the checks at mobile and tablet widths.",
       "skills": [
         {
-          "name": "[REPLACE: Technical Skill / TSC]",
+          "name": "User Interface Implementation",
           "framework": "Skills Framework for ICT - TSC",
           "level": "Intermediate",
-          "evidence": "[REPLACE: Explain the behaviour in this artefact that demonstrates the stated level.]"
+          "evidence": "I applied and validated interface changes across multiple related course-management sections while maintaining a consistent visual structure and usable controls."
         },
         {
-          "name": "[REPLACE: Critical Core Skill]",
+          "name": "Problem Solving",
           "framework": "Critical Core Skills - CCS",
           "level": "Intermediate",
-          "evidence": "[REPLACE: Explain how communication, collaboration, problem solving or learning agility was demonstrated.]"
-        }
-      ],
-      "code_language": "python",
-      "code_snippet": "# Replace with a short, company-approved excerpt\ndef validate_output(result):\n    return result is not None and result.status == 'approved'",
-      "link": ""
-    },
-    {
-      "title": "[REPLACE: Artefact Two - e.g. Test Results, Diagram or Product Demonstration]",
-      "type": "[REPLACE: Test Results / Diagram / Video / Certificate]",
-      "clearance_status": "[REPLACE: Approved / Redacted]",
-      "summary": "[REPLACE: Briefly explain what this second artefact proves and which project it supports.]",
-      "deliverable": "[REPLACE: Describe the artefact and its important components.]",
-      "contribution": "[REPLACE: Explain what you created, improved or validated.]",
-      "use": "[REPLACE: Explain the audience and practical use of this artefact.]",
-      "action": "[REPLACE: Explain your task, decisions and execution.]",
-      "result": "[REPLACE: Give a specific result or evidence of competency.]",
-      "corrective_action": "[REPLACE: Describe feedback received, gaps identified and the action taken.]",
-      "skills": [
-        {
-          "name": "[REPLACE: Technical Skill / TSC]",
-          "framework": "Skills Framework for ICT - TSC",
-          "level": "Intermediate",
-          "evidence": "[REPLACE: Connect the artefact to the proficiency level with a concrete example.]"
-        },
-        {
-          "name": "[REPLACE: Critical Core Skill]",
-          "framework": "Critical Core Skills - CCS",
-          "level": "Intermediate",
-          "evidence": "[REPLACE: Explain the workplace behaviour demonstrated.]"
+          "evidence": "I used the annotated problem areas to isolate presentation issues, compare the editing and display contexts and verify that the revised result addressed the visible problem."
         }
       ],
       "code_language": "text",
       "code_snippet": "",
+      "screenshots": [
+        {
+          "path": "images/ui changes/WhatsApp Image 2026-05-18 at 2.28.06 PM.jpeg",
+          "caption": "Course Sessions and Additional Documents controls reviewed for clearer placement."
+        },
+        {
+          "path": "images/ui changes/WhatsApp Image 2026-05-18 at 2.31.36 PM.jpeg",
+          "caption": "Assessment-method options organised as clear selectable cards."
+        },
+        {
+          "path": "images/ui changes/WhatsApp Image 2026-05-18 at 2.33.18 PM.jpeg",
+          "caption": "Structured lesson-topic controls for adding, ordering, expanding and removing topics."
+        },
+        {
+          "path": "images/ui changes/WhatsApp Image 2026-05-18 at 2.36.12 PM.jpeg",
+          "caption": "Problem state: course content displayed as raw HTML inside the editor."
+        },
+        {
+          "path": "images/ui changes/WhatsApp Image 2026-05-18 at 7.50.31 PM.jpeg",
+          "caption": "Revised state: formatted course content with Editor, HTML and Clean Up controls."
+        },
+        {
+          "path": "images/ui changes/WhatsApp Image 2026-05-18 at 7.51.24 PM.jpeg",
+          "caption": "Public course page checked for readable paragraph and learning-outcome spacing."
+        }
+      ],
+      "link": ""
+    },
+    {
+      "title": "Platform Functionality Test and Change Log",
+      "type": "Annotated functional test screenshots",
+      "clearance_status": "Privacy-screened selection",
+      "summary": "This evidence supports Project 02 by recording functional checks, configuration work and visible outcomes across the training platform's public and administrative workflows.",
+      "deliverable": "A 12-screen evidence log covering dashboard tools, course-image display, registration confirmation email, review editing, store-view visibility, cache management, profile and theme controls, email templates, funding eligibility, course categories, schedule editing and assessment links.",
+      "contribution": "I reproduced the assigned issues, worked through the relevant platform screens, checked the resulting behaviour and documented both validated functions and items that still required correction.",
+      "use": "The evidence gives the IT team and assessor a concise visual record of what was checked, where the function is managed and whether the screenshot shows a working result or an identified defect.",
+      "action": "I followed each workflow from its entry point, reviewed the related settings or data, checked multi-store and cache-dependent behaviour where relevant, and validated visible outputs such as the registration email and editable course schedule.",
+      "result": "The evidence confirms access to and operation of several key functions, including registration confirmation, review administration, profile and theme settings, funding choices, category management, schedule editing and assessment-link configuration. It also clearly identifies the missing course image as a separate defect requiring follow-up.",
+      "corrective_action": "I distinguished confirmed outcomes from unresolved issues and refreshed cached content when configuration changes required it. For future testing, I would record an expected result, actual result and pass/fail status for each screen and redact all personal or internal data before publication.",
+      "skills": [
+        {
+          "name": "Application Support and Testing",
+          "framework": "Skills Framework for ICT - TSC",
+          "level": "Intermediate",
+          "evidence": "I tested connected functions across the storefront, administration portal and email output, and separated verified behaviour from defects that required further action."
+        },
+        {
+          "name": "Problem Solving",
+          "framework": "Critical Core Skills - CCS",
+          "level": "Intermediate",
+          "evidence": "I traced each annotated issue to the relevant workflow or configuration screen, checked dependencies such as store view and cache state, and documented a clear result for follow-up."
+        }
+      ],
+      "code_language": "text",
+      "code_snippet": "",
+      "screenshots": [
+        {
+          "path": "images/functionality changes/WhatsApp Image 2026-04-15 at 10.55.24 PM.jpeg",
+          "caption": "Data Analytics Tools dashboard checked for access to the required tool areas."
+        },
+        {
+          "path": "images/functionality changes/WhatsApp Image 2026-04-16 at 3.05.23 PM.jpeg",
+          "caption": "Identified defect: the Python course card did not load its course image."
+        },
+        {
+          "path": "images/functionality changes/WhatsApp Image 2026-05-21 at 2.58.07 PM.jpeg",
+          "caption": "Cache-management screen used when validating configuration-dependent changes."
+        },
+        {
+          "path": "images/functionality changes/WhatsApp Image 2026-05-22 at 11.27.21 AM.jpeg",
+          "caption": "Funding-eligibility choices and discount labels checked on the registration form."
+        },
+        {
+          "path": "images/functionality changes/WhatsApp Image 2026-05-25 at 3.09.04 PM.jpeg",
+          "caption": "Course-category administration and category structure reviewed."
+        },
+        {
+          "path": "images/functionality changes/WhatsApp Image 2026-05-28 at 1.57.39 AM.jpeg",
+          "caption": "Editable course dates, prices and sort order verified in Course Schedule."
+        }
+      ],
       "link": ""
     }
   ],
   "ksa": {
     "knowledge": [
       {
-        "name": "[REPLACE: Domain / Technical Knowledge]",
+        "name": "Web Interface and Content Rendering",
         "framework": "Skills Framework for ICT",
         "level": "Intermediate",
         "evidence_ref": "Artefact 01",
-        "explanation": "[REPLACE: Explain the concepts, constraints and context you understand.]",
-        "demonstration": "[REPLACE: Give a workplace example showing how this knowledge informed a decision.]"
+        "explanation": "I understand that web content must work in both its editing context and its final display context. This includes the relationship between HTML markup, formatted content, layout hierarchy, control placement, readability and responsive presentation across administration and public-facing pages.",
+        "demonstration": "In Project 01, I compared a course-topics view that exposed raw HTML with the revised formatted editor and public course page. This helped me verify that the content was not only stored correctly but also presented in a readable and usable form."
       },
       {
-        "name": "[REPLACE: Process / Business Knowledge]",
+        "name": "Training Platform Administration Workflow",
         "framework": "Workplace knowledge",
         "level": "Foundational",
         "evidence_ref": "Project 02",
-        "explanation": "[REPLACE: Explain what you learned about the organisation, users or delivery process.]",
-        "demonstration": "[REPLACE: Give a concrete example.]"
+        "explanation": "I learned how different parts of a training platform support the course-delivery process, including course categories, schedules, funding choices, store views, reviews, registration notifications, assessment links and cache-dependent updates.",
+        "demonstration": "In Project 02, I followed functions across the public storefront, administration portal and registration email output. For example, I checked editable course schedules in the admin area and verified the visible registration confirmation produced by the platform."
       }
     ],
     "skills": [
       {
-        "name": "[REPLACE: Technical Skill 1]",
+        "name": "User Interface Implementation",
         "framework": "Technical Skills & Competencies (TSC)",
         "level": "Intermediate",
         "evidence_ref": "Artefact 01",
-        "explanation": "[REPLACE: Define the skill in the context of your job role.]",
-        "demonstration": "[REPLACE: Explain the task, your action, result and degree of independence.]"
+        "explanation": "In my role, user interface implementation means applying and checking visual changes that make website content and controls clearer, more consistent and easier to use without disrupting the surrounding workflow.",
+        "demonstration": "I worked through the highlighted course-management screens, improved or validated the placement and presentation of session, topic, assessment, training-mode and document controls, and checked the resulting course content on the public page."
       },
       {
-        "name": "[REPLACE: Technical Skill 2]",
+        "name": "Application Support and Functional Testing",
         "framework": "Technical Skills & Competencies (TSC)",
         "level": "Intermediate",
         "evidence_ref": "Artefact 02",
-        "explanation": "[REPLACE: Define the second skill.]",
-        "demonstration": "[REPLACE: Connect it to a project outcome and any corrective action.]"
+        "explanation": "Application support and functional testing involve reproducing an issue, locating the related workflow or configuration, checking dependencies and recording whether the actual result matches the intended behaviour.",
+        "demonstration": "I checked functions across dashboard tools, course registration, reviews, store views, profile settings, funding options, categories, schedules and assessment links. I recorded confirmed results separately from the unresolved missing course-image defect so that follow-up action remained clear."
       },
       {
-        "name": "[REPLACE: Problem Solving / Communication / Collaboration]",
+        "name": "Problem Solving and Communication",
         "framework": "Critical Core Skills (CCS)",
         "level": "Intermediate",
         "evidence_ref": "Projects 01-02",
-        "explanation": "[REPLACE: Explain why this generic competency mattered in your work.]",
-        "demonstration": "[REPLACE: Describe the situation, action and result that demonstrate it.]"
+        "explanation": "Website issues are often reported visually or as a short task description, so I needed to interpret the problem, investigate the relevant screen and communicate the result in a way that another person could verify.",
+        "demonstration": "I used the annotated arrows and screenshots to isolate each target area, checked the related admin or public workflow and produced a traceable evidence record. I also described the broken course image as an unresolved defect instead of presenting it as a completed fix."
       }
     ],
     "attitudes": [
       {
-        "name": "[REPLACE: Learning Agility / Ownership / Professionalism]",
+        "name": "Learning Agility and Ownership",
         "framework": "Critical Core Skills (CCS)",
         "level": "Intermediate",
         "evidence_ref": "Reflection",
-        "explanation": "[REPLACE: Explain the attitude and why it matters in your job role.]",
-        "demonstration": "[REPLACE: Give a specific behaviour, feedback item or decision that shows this attitude.]"
+        "explanation": "Learning agility and ownership mean becoming familiar with new platform areas quickly, following an assigned issue through to validation and taking responsibility for documenting anything that still needs attention.",
+        "demonstration": "I moved between unfamiliar course-management, store-view, cache, review, profile, category and scheduling screens and used each screen's context to complete or validate the assigned task. When the evidence showed a remaining image defect, I retained it as a follow-up item."
       },
       {
-        "name": "[REPLACE: Second Professional Attitude]",
+        "name": "Attention to Detail and Professionalism",
         "framework": "Workplace competency",
         "level": "Intermediate",
         "evidence_ref": "Artefact 02",
-        "explanation": "[REPLACE: Explain the attitude.]",
-        "demonstration": "[REPLACE: Give specific evidence.]"
+        "explanation": "Attention to detail is important when small differences in content formatting, store scope, cache state or control placement can affect the user experience. Professionalism also requires protecting personal and internal information in portfolio evidence.",
+        "demonstration": "I checked both problem and result states carefully, distinguished verified functions from unresolved issues and selected portfolio screenshots that exclude personal names, registration details and direct assessment-document links."
       }
     ]
   },
   "reflection": {
-    "nature_of_work": "[REPLACE: Reflect on the daily, weekly and longer-term responsibilities that formed the foundation of your role.]",
-    "challenge": "[REPLACE: Describe one meaningful technical or workplace challenge, its causes and constraints.]",
-    "action": "[REPLACE: Explain what you did, how KSA informed your response and why you chose that approach.]",
-    "result": "[REPLACE: State the outcome and the evidence you used to judge whether the response worked.]",
-    "critical_evaluation": "[REPLACE: Critique your work honestly. Identify an assumption, limitation, missed opportunity or weakness.]",
-    "alternative": "[REPLACE: Give a practical alternative approach and explain when or why it may be better.]",
-    "learning_growth": "[REPLACE: Explain how the experience broadened or deepened your knowledge, skills and attitudes.]",
-    "accomplishment": "[REPLACE: Identify an achievement, its impact and why you are proud of it.]",
-    "future_self_title": "[REPLACE: The professional I am becoming]",
-    "future_self": "[REPLACE: Describe your future work aspirations, the kind of problems you want to solve and the professional values you want to carry forward.]",
+    "nature_of_work": "I maintained the company website, fixed visual and functional issues, and checked that my changes worked correctly.",
+    "challenge": "The main challenge was that one change could affect the admin portal, public website, forms or emails. Some changes also depended on the selected store view or website cache.",
+    "action": "I used the annotated screenshots to find each issue, checked the related settings or page, tested the result and recorded any problem that still needed work.",
+    "result": "I improved the course-management interface and checked several platform functions. My 23 screenshots show the completed work as well as the missing course image that still required follow-up.",
+    "critical_evaluation": "The screenshots show my work, but some do not include a clear before-and-after comparison. This makes a few changes harder to verify.",
+    "alternative": "Next time, I would use a simple test log with the issue, expected result, actual result, status and before-and-after screenshots.",
+    "learning_growth": "I improved my understanding of website interfaces, content formatting, admin settings and functional testing. I also became more careful when checking results and documenting issues.",
+    "accomplishment": "I am proud that I completed a range of website improvements and organised the work into two clear project records.",
+    "future_self_title": "A dependable web and application support professional",
+    "future_self": "I want to develop my skills in front-end development, application support and software testing.",
     "next_steps": [
-      "[REPLACE: Specific development action with a timeframe]",
-      "[REPLACE: Skill or certification goal]",
-      "[REPLACE: Portfolio, project or networking action]"
+      "Maybe Return to School to do more courses in front-end development or software testing.",
+      "Maybe look for a full-time role in front-end development or software quality assurance."
     ]
   },
-  "contact_note": "[REPLACE: Add a short invitation to discuss your work or future opportunities.]",
+  "contact_note": "I welcome opportunities to discuss my internship projects, web and application support experience, and future roles in front-end development or software quality assurance.",
   "privacy_note": "This portfolio contains only approved or redacted workplace information. Sensitive, proprietary and personal data have been excluded."
 }
